@@ -7,7 +7,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// Smooth Scroll for Anchor Links
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -17,7 +17,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Optional: Add a small delay scroll effect to hero button
 const heroBtn = document.querySelector('.btn');
 if (heroBtn) {
   heroBtn.addEventListener('click', () => {
@@ -26,3 +25,4 @@ if (heroBtn) {
     }, 300);
   });
 }
+
